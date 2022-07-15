@@ -7,7 +7,7 @@ class calc {
         int number1, number2, result;
         Scanner input = new Scanner(System.in);
 
-        System.out.println("choose what operator you want to use");
+        System.out.println("do yo want to +, -, * or /");
         operator = input.next().charAt(0);
 
         System.out.println("enter first number");
