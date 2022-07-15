@@ -1,4 +1,4 @@
-public class exercise {
+ class exercise {
     public static void main(String[] args) {
         String name = "Olaleye";
         String knowName = "Leye";
