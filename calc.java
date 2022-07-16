@@ -16,6 +16,12 @@ class calc {
         System.out.println("enter second number");
         number2 = input.nextInt();
 
+    
+
+      
+   
+
+
 
 
         
