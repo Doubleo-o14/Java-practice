@@ -1,7 +1,7 @@
 class ABexercise {
 
     public static void main(String[] args) {
-        int i = 1;
+        // int i = 1;
         // while (i < 10) {
 
         //     System.out.println(i);
@@ -11,11 +11,16 @@ class ABexercise {
 
 
         // }
-        int stored_i = 1;
-        while (i < 10) {
+        // int stored_i = 1;
+        // while (i < 10) {
             
-            System.out.println(i + "  2^i: " + (stored_i *= 2));
-            i++;
+        //     System.out.println(i + "  2^i: " + (stored_i *= 2));
+        //     i++;
+        // }
+
+        for (int i= 1; i < 10; i++) {
+            System.out.println(i + 10);
+
         }
 
 
