@@ -18,10 +18,16 @@ class ABexercise {
         //     i++;
         // }
 
-        for (int i= 1; i < 10; i++) {
-            System.out.println(i + 10);
+        // for (int i= 1; i < 10; i++) {
+        //     System.out.println(i + 10);
 
-        }
+        // }
+        int stored_i = 1;
+        for (int i =1; i<10; i++) {
+        System.out.println(i + " 2^1: " +  (stored_i *= 2));
+    
+    }
+
 
 
 
