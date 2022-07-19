@@ -66,18 +66,34 @@ class ABexercise {
     //     break;
     // }
 
-    int day = 1;
-    while (day <= 7) {
-        if (day <= 5) {
-            System.out.println(day + " It is a weekday");
+    // int day = 1;
+    // while (day <= 7) {
+    //     if (day <= 5) {
+    //         System.out.println(day + " It is a weekday");
+    //     }
+    //     else {
+    //         System.out.println(day + " It is a weekend");
+
+    //     }
+
+    //     day ++;
+    // }
+
+    int year = 1900;
+
+    while(year <= 2022) {
+        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0 ) {
+            System.out.println(year + " This is a Leap year");
         }
         else {
-            System.out.println(day + " It is a weekend");
+            System.out.println(year + " This is not a Leap year");
 
         }
+        year ++;
 
-        day ++;
     }
+
+
 
 
 
