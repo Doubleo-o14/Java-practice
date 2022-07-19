@@ -34,14 +34,38 @@ class ABexercise {
         System.out.println("What is the number of days that has gone through the week?");
         day = input.nextInt();
     }
-    if (day <= 5) {
-        System.out.println("It is a weekday");
+    // if (day <= 5) {
+    //     System.out.println("It is a weekday");
 
-    }
-    else if(5 < day && day <= 7) {
-        System.out.println("It is a weekend");
+    // }
+    // else if(5 < day && day <= 7) {
+    //     System.out.println("It is a weekend");
 
+    // }
+    switch(day) {
+        case 1:
+        System.out.println("It is a weekday.");
+        break;
+        case 2:
+        System.out.println("It is a weekday.");
+        break;
+        case 3:
+        System.out.println("It is a weekday.");
+        break;
+        case 4:
+        System.out.println("It is a weekday.");
+        break;
+        case 5:
+        System.out.println("It is a weekday.");
+        break;
+        case 6:
+        System.out.println("It is a weekend.");
+        break;
+        case 7:
+        System.out.println("It is a weekend.");
+        break;
     }
+
 
 
 
