@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 class ABexercise {
 
     public static void main(String[] args) {
@@ -29,11 +29,11 @@ class ABexercise {
     
     // }
     // System.out.println("I prefer using the for loop as the code looks more cleaner.");
-    int day;
-    try (Scanner input = new Scanner(System.in)) {
-        System.out.println("What is the number of days that has gone through the week?");
-        day = input.nextInt();
-    }
+    // int day;
+    // try (Scanner input = new Scanner(System.in)) {
+    //     System.out.println("What is the number of days that has gone through the week?");
+    //     day = input.nextInt();
+    // }
     // if (day <= 5) {
     //     System.out.println("It is a weekday");
 
@@ -42,29 +42,46 @@ class ABexercise {
     //     System.out.println("It is a weekend");
 
     // }
-    switch(day) {
-        case 1:
-        System.out.println("It is a weekday.");
-        break;
-        case 2:
-        System.out.println("It is a weekday.");
-        break;
-        case 3:
-        System.out.println("It is a weekday.");
-        break;
-        case 4:
-        System.out.println("It is a weekday.");
-        break;
-        case 5:
-        System.out.println("It is a weekday.");
-        break;
-        case 6:
-        System.out.println("It is a weekend.");
-        break;
-        case 7:
-        System.out.println("It is a weekend.");
-        break;
+    // switch(day) {
+    //     case 1:
+    //     System.out.println("It is a weekday.");
+    //     break;
+    //     case 2:
+    //     System.out.println("It is a weekday.");
+    //     break;
+    //     case 3:
+    //     System.out.println("It is a weekday.");
+    //     break;
+    //     case 4:
+    //     System.out.println("It is a weekday.");
+    //     break;
+    //     case 5:
+    //     System.out.println("It is a weekday.");
+    //     break;
+    //     case 6:
+    //     System.out.println("It is a weekend.");
+    //     break;
+    //     case 7:
+    //     System.out.println("It is a weekend.");
+    //     break;
+    // }
+
+    int day = 1;
+    while (day <= 7) {
+        if (day <= 5) {
+            System.out.println(day + " It is a weekday");
+        }
+        else {
+            System.out.println(day + " It is a weekend");
+
+        }
+
+        day ++;
     }
+
+
+
+
 
 
 
