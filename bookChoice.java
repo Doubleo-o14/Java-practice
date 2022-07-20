@@ -33,6 +33,16 @@ class bookChoice {
         b3.price = 15;
 
         book[] books = {b1,b2,b3};
+        int num =0;
+
+        while (num < 3){
+            System.out.println(books[num].name);
+            System.out.println(books[num].author);
+            System.out.println("£"+books[num].price);
+
+            num ++;
+
+        }
         
         
 
